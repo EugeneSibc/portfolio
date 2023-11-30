@@ -12,7 +12,7 @@ export const Testimony = () => {
             <Container>
                 <SectionTitle>Testimony</SectionTitle>
                 <FlexWrapper direction={"column"}  align={"center"}>
-                    <Icon iconId={"quote"} width={"50"} height={"50"} viewBox={"0 0 50px 50px"}/>
+                    <Icon iconId={"quote"} width={"50"} height={"50"} viewBox={"0 0 50 50"}/>
                     <Slider/>
                 </FlexWrapper>
             </Container>
