@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components"
 import { theme } from "../../../styles/Theme"
 
-//DesktopMenu
+//Menu
 const Mask = styled.span`
   position:absolute;
   top: 0;
