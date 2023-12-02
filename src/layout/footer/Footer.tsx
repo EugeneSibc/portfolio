@@ -3,6 +3,7 @@ import { Icon } from "../../component/icon/Icon";
 import { FlexWrapper } from "../../component/FlexWrapper";
 import { Container } from "../../component/Container";
 import { S } from './Footer_Styles';
+import { GoTopBtn } from '../../component/goTopBtn/GoTopBtn';
 
 const socialItemsData = [
   {
@@ -26,6 +27,7 @@ export const Footer = () => {
         <FlexWrapper direction={"column"} align={"center"}>
           <S.Invite>Connect with me</S.Invite>
           <S.SocialList>
+
             {socialItemsData.map((item, index) => {
             return (
               <S.SocialItem>
@@ -34,10 +36,9 @@ export const Footer = () => {
                 </S.SocialLink>
               </S.SocialItem>
             )})}
+
           </S.SocialList>
-          <S.GoTopLink>
-            <Icon iconId={"goTop"} width={"30px"} height={"30px"} viewBox={"0 0 30 30"} />
-          </S.GoTopLink>
+          <GoTopBtn/>
           <S.Copyright>© 2023 Designed by Evgeny Markin, All Rights Reserved.</S.Copyright>
         </FlexWrapper>
       </Container>

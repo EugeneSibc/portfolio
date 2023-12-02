@@ -47,15 +47,6 @@ const SocialLink = styled.a`
     transform: translateY(-4px);
   }
 `
-const GoTopLink = styled.a`
-  position: absolute;
-  right:15px;
-  bottom:10px;
-
-  &:hover{
-    color:${theme.colors.accent};
-  }  
-`
 const Copyright = styled.small`
   ${font({ lineHeight: 1.5, Fmax: 12, Fmin: 6 })};
   text-align: center;
@@ -67,6 +58,5 @@ export const S = {
     SocialList,
     SocialItem,
     SocialLink,
-    GoTopLink,
     Copyright
 }
